@@ -34,8 +34,11 @@ object ListOperations extends App{
   )
   val animals2=animals+("lion"->"roar")
   println(animals2.get("cow"))
-  println(animals2.get("tiger")) // it will print None because map.get() returns
+  println(animals2.get("tiger")) // it will print None because map.get() returns null , it will not give you  null pointer exception like in java
 
   println(animals2.getOrElse("Tiger","roar"))
+
+
+
 
 }
