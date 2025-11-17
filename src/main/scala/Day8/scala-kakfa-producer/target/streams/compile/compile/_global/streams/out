@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/vinodh/IdeaProjects/akka-stream-http-kafka-producer/src/main/scala/WebServer.scala:12:16: Implicit definition should have explicit type (inferred akka.actor.typed.ActorSystem[Any]) [quickfixable][0m
+[0m[[0m[33mwarn[0m] [0m[0m  implicit val system = ActorSystem(Behaviors.empty, "MyActorSystem")[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

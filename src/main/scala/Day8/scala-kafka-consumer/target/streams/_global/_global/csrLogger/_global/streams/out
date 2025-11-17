@@ -1,0 +1,40 @@
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.9.3/akka-stream_2.13-2.9.3.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.6.3/akka-http_2.13-10.6.3.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.9.3/akka-actor-typed_2.13-2.9.3.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.6.3/akka-http-spray-json_2.13-10.6.3.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.13/6.0.0/akka-stream-kafka_2.13-6.0.0.pom
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.9.3/akka-actor-typed_2.13-2.9.3.pom
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.6.3/akka-http-spray-json_2.13-10.6.3.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.9.3/akka-actor-typed_2.13-2.9.3.pom.sha1
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.6.3/akka-http-spray-json_2.13-10.6.3.pom.sha1
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.6.3/akka-http_2.13-10.6.3.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.6.3/akka-http_2.13-10.6.3.pom.sha1
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.9.3/akka-stream_2.13-2.9.3.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.9.3/akka-stream_2.13-2.9.3.pom.sha1
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.13/6.0.0/akka-stream-kafka_2.13-6.0.0.pom
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.13/6.0.0/akka-stream-kafka_2.13-6.0.0.pom.sha1
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.6.3/akka-http_2.13-10.6.3.pom.sha1
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.9.3/akka-actor-typed_2.13-2.9.3.pom.sha1
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-http_2.13/10.6.3/akka-http_2.13-10.6.3.pom
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_2.13/2.9.3/akka-actor-typed_2.13-2.9.3.pom
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.6.3/akka-http-spray-json_2.13-10.6.3.pom.sha1
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.13/6.0.0/akka-stream-kafka_2.13-6.0.0.pom.sha1
+[info] downloading failed https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.9.3/akka-stream_2.13-2.9.3.pom.sha1
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-stream-kafka_2.13/6.0.0/akka-stream-kafka_2.13-6.0.0.pom
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-http-spray-json_2.13/10.6.3/akka-http-spray-json_2.13-10.6.3.pom
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-stream_2.13/2.9.3/akka-stream_2.13-2.9.3.pom
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-http-spray-json_2.13/10.6.3/akka-http-spray-json_2.13-10.6.3.pom
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-http-spray-json_2.13/10.6.3/akka-http-spray-json_2.13-10.6.3.pom.sha1
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-http_2.13/10.6.3/akka-http_2.13-10.6.3.pom
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_2.13/2.9.3/akka-actor-typed_2.13-2.9.3.pom
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-http_2.13/10.6.3/akka-http_2.13-10.6.3.pom.sha1
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_2.13/2.9.3/akka-actor-typed_2.13-2.9.3.pom.sha1
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-stream-kafka_2.13/6.0.0/akka-stream-kafka_2.13-6.0.0.pom
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-stream-kafka_2.13/6.0.0/akka-stream-kafka_2.13-6.0.0.pom.sha1
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-stream_2.13/2.9.3/akka-stream_2.13-2.9.3.pom
+[info] downloading https://repo.akka.io/maven/com/typesafe/akka/akka-stream_2.13/2.9.3/akka-stream_2.13-2.9.3.pom.sha1
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-http-spray-json_2.13/10.6.3/akka-http-spray-json_2.13-10.6.3.pom.sha1
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-http_2.13/10.6.3/akka-http_2.13-10.6.3.pom.sha1
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_2.13/2.9.3/akka-actor-typed_2.13-2.9.3.pom.sha1
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-stream-kafka_2.13/6.0.0/akka-stream-kafka_2.13-6.0.0.pom.sha1
+[info] downloading failed https://repo.akka.io/maven/com/typesafe/akka/akka-stream_2.13/2.9.3/akka-stream_2.13-2.9.3.pom.sha1
