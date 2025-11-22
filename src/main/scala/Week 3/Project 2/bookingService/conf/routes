@@ -1,0 +1,55 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+## An example controller showing a sample home page
+GET     /                           controllers.HomeController.index()
+#
+## Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+#
+#
+##POST /api/login
+##
+###create hotel under same ownerid
+#POST /api/hotel/create                    controllers.HotelController.createHotel()
+##PUT /api/hotel/update
+##GET /api/hotel/list
+##
+## create rooms in hotel
+##POST /api/hotel/room/create               controllers.RoomController.createRoom(hotelId = )
+##PUT /api/hotel/room/update
+##GET /api/hotel/room/list
+##
+### create guests in hotel
+##POST /api/guests/create
+##PUT /api/guests/update
+##GET /api/guests/list
+##DELETE /api/guests/
+#
+#POST   /api/hotels/:hotelId/rooms    controllers.RoomController.createRoom(hotelId: String)
+#GET    /api/hotels/:hotelId/rooms    controllers.RoomController.listRooms(hotelId: String)
+
+GET     /test/db                  controllers.TestController.testDb
+POST    /api/hotel               controllers.HotelController.createHotel()
+
+#Address related Routes
+POST    /api/address                 controllers.AddressController.createAddress()
+
+#hotel related Routes
+POST    /api/:hotelId/room           controllers.RoomController.createRoom(hotelId:String)
+
+#GET     /test/hotels              controllers.TestController.listHotels
+
+#Guest Related Routes
+POST    /api/guest                  controllers.GuestController.createGuest()
+
+
+#CheckIn Related Routes
+POST   /api/:hotelId/checkin        controllers.CheckInController.checkIn(hotelId:String)
+
+POST /api/kafka/booking             controllers.KafkaController.sendBookingEvent()
+
+
+

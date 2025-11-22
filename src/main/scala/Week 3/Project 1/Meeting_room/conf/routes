@@ -1,0 +1,60 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+
+# conf/routes
+
+# Booking routes
+POST        /api/bookings                    controllers.BookingController.createBooking()
+DELETE      /api/bookings/:bookingId         controllers.BookingController.cancelBooking(bookingId: String)
+GET         /api/bookings/availability       controllers.BookingController.checkAvailability(roomId: String, startTime: String, endTime: String)
+GET         /api/bookings/upcoming           controllers.BookingController.getUpcomingBookings()
+
+# Room routes
+GET         /api/rooms                       controllers.RoomController.getAllRooms
+POST       /api/rooms                        controllers.RoomController.createRoom
+GET         /api/rooms/available             controllers.RoomController.getAvailableRooms(startTime: String, endTime: String)
+
+# Health check
+
+# Add these routes to your routes file
+GET     /api/users/:userId                    controllers.UsersController.getUser(userId: String)
+
+# Get user by email
+GET     /api/users/email/:email               controllers.UsersController.getUserByEmail(email: String)
+
+# Create new user
+POST    /api/users                            controllers.UsersController.createUser
+
+# Update user
+PUT     /api/users/:userId                    controllers.UsersController.updateUser(userId: String)
+
+# Deactivate user
+POST    /api/users/:userId/deactivate         controllers.UsersController.deactivateUser(userId: String)
+
+# Get users by role
+GET     /api/users/role/:role                 controllers.UsersController.getUsersByRole(role: String)
+
+# Search users with criteria
+
+# Get all active users
+GET     /api/users/active                     controllers.UsersController.getAllActiveUsers
+
+# Validate user for booking
+GET     /api/users/:userId/validate           controllers.UsersController.validateUser(userId: String)
+
+
+POST    /api/kafka/booking-confirmation        controllers.KafkaController.sendBookingConfirmation
+POST    /api/kafka/room-preparation           controllers.KafkaController.sendRoomPreparationAlert
+POST    /api/kafka/reminder                   controllers.KafkaController.sendReminderAlert
+POST    /api/kafka/release-notification       controllers.KafkaController.sendReleaseNotification
+POST    /api/kafka/custom-notification        controllers.KafkaController.sendCustomNotification
+POST    /api/kafka/notification-status        controllers.KafkaController.getNotificationStatus

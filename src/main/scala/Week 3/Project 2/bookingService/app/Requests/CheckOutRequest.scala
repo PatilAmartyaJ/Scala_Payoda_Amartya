@@ -1,0 +1,5 @@
+package Requests
+
+class CheckOutRequest {
+
+}
