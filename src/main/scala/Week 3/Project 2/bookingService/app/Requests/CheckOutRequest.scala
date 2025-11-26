@@ -1,5 +1,0 @@
-package Requests
-
-class CheckOutRequest {
-
-}
