@@ -1,0 +1,8 @@
+
+«
+(app/protobuf/Daily_Avg_Co2_By_Zone.protoenvironmental"h
+Daily_Avg_Co2_By_Zone
+zone_id (	RzoneId
+
+event_date (	R	eventDate
+avg_co2 (RavgCo2bproto3

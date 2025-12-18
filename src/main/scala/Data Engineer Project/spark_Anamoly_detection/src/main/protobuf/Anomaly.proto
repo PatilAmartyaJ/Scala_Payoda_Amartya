@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package environmental;
+
+message Environmental_Anomaly_Detection {
+  string sensor_id = 1;
+  string zone_id = 2;
+  int64 event_time = 3;
+  string event_date = 4;
+  double pm2_5 = 5;
+  double pm10 = 6;
+  double co2_ppm = 7;
+  string device_status = 8;
+  bool is_anomaly = 9;
+  string  anomaly_type = 10;
+  int32 severity_score = 11;
+  string exceeded_pollutants = 12;
+  string exceed_percentages = 13;
+}
+
+
+

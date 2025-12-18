@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package environmental;
+
+message Daily_Anomaly_Counts {
+  string event_date=1;
+  int64 total_anomaly_count=2;
+}

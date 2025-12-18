@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package environmental;
+
+message EnvironmentalEvent {
+  string sensor_id = 1;
+  string zone_id = 2;
+  int64 event_time = 3;
+  string event_date=4;
+  double pm2_5 = 5;
+  double pm10 = 6;
+  double co2_ppm = 7;
+  string device_status = 8;
+  int64  processing_timestamp = 9;
+}

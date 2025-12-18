@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package environmental;
+
+message Daily_Avg_Co2_By_Zone {
+  string zone_id=1;
+  string event_date=2;
+  double avg_co2=3;
+}

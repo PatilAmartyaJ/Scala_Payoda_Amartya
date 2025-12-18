@@ -1,0 +1,21 @@
+
+€
+src/main/protobuf/Anomaly.protoenvironmental"Å
+Environmental_Anomaly_Detection
+	sensor_id (	RsensorId
+zone_id (	RzoneId
+
+event_time (R	eventTime
+
+event_date (	R	eventDate
+pm2_5 (Rpm25
+pm10 (Rpm10
+co2_ppm (Rco2Ppm#
+device_status (	RdeviceStatus
+
+is_anomaly	 (R	isAnomaly!
+anomaly_type
+ (	RanomalyType%
+severity_score (RseverityScore/
+exceeded_pollutants (	RexceededPollutants-
+exceed_percentages (	RexceedPercentagesbproto3

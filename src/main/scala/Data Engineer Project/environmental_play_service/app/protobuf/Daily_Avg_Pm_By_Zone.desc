@@ -1,0 +1,9 @@
+
+Ç
+'app/protobuf/Daily_Avg_Pm_By_Zone.protoenvironmental"„
+Daily_Avg_Pm_By_Zone
+zone_id (	RzoneId
+
+event_date (	R	eventDate
+avg_pm25 (RavgPm25
+avg_pm10 (RavgPm10bproto3

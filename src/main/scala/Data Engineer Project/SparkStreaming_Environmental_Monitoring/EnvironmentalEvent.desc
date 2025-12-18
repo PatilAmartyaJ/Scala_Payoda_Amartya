@@ -1,0 +1,15 @@
+
+è
+*src/main/protobuf/EnvironmentalEvent.protoenvironmental"¢
+EnvironmentalEvent
+	sensor_id (	RsensorId
+zone_id (	RzoneId
+
+event_time (R	eventTime
+
+event_date (	R	eventDate
+pm2_5 (Rpm25
+pm10 (Rpm10
+co2_ppm (Rco2Ppm#
+device_status (	RdeviceStatus1
+processing_timestamp	 (RprocessingTimestampbproto3

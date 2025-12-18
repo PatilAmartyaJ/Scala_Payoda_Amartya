@@ -1,0 +1,26 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+
+POST  /api/zone                      controllers.ZoneController.createZone()
+GET  /api/zone                       controllers.ZoneController.getAllZones()
+
+GET /api/zone/pollutionHistory/:date/:zoneId    controllers.DailyPollutionSummaryController.getByDateAndZone(date,zoneId)
+
+
+GET /api/zone/:zoneId/recentReadings  controllers.ZoneController.getRecentRecordsByZone(zoneId,limit: Option[String])
+
+GET /api/zone/:zoneId/dailySummary   controllers.DailyPollutionSummaryController.getByZone(zoneId)
+
+POST /api/pollutionThreshold         controllers.PollutionThresholdController.createPollutionThreshold()
+#
+#POST    /api/:zoneId/room           controllers..createRoom(hotelId:String)
+#GET    /api/:zoneId/room            controllers.RoomController.listRooms(hotelId:String)

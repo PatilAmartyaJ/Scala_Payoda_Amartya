@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package environmental;
+
+message Daily_Avg_Pm_By_Zone {
+  string zone_id=1;
+  string event_date=2;
+  double avg_pm25=3;
+  double avg_pm10=4;
+}
